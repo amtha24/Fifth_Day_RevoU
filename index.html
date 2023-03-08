@@ -6,21 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unifarm Travel Agent </title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <navbar>
-            <img src="assets/Unifarm.png" alt="" style="height: 50px; width: 50px;">
+    <header style="border-bottom: 10px solid black" >
+        <navbar class="container">
+            <div class="navbar">
+            <img class="logo" src="assets/Unifarm.png" alt="">
             <div class="headerM">
-                <a href="#hm"class="button">home</a>
-                <a href="#op"class="button">Our Package</a>
-                <a href="#cu"class="button">Call Us</a>
+                <a class="menu-button" href="#hm"class="button">Home</a>
+                <a class="menu-button" href="#op"class="button">Our Package</a>
+                <a class="menu-button"href="#cu"class="button">Call Us</a>
             </div>
+            </div>
+            
         </navbar>
     </header>
     
-    <main>
+    <main> <!------------------------------------------------------------------>
     <section id ="hm">
         <div class="container">
             <div class="hm-title">
@@ -29,18 +33,18 @@
             </div>
         </div>
     </section>
+    <!------------------------------------------------------------------------->
     <section id="opener-contact">
         <div class="container">
-            <div class="opener">
-                <img src="https://placebear.com/640/360" alt="">
+            <div class="opener-contact">
+            <div class="opener">                                 <!--opener kiri-->
+                <img class="opener-img" src="https://placebear.com/640/360" alt=""> <!--gambar Review--->
                 <div class="opener-content">
-
-                
                     <div class="content-caption">
                         <p>Liburan review</p>    
                     </div>
 
-                    <div class="content-person">
+                    <div class="content-person"> <!--profile pengguna-->
                         <img src="https://avatars.dicebear.com/api/adventurer-neutral/mail%40ashallendesign.co.uk.svg" alt=""style="height: 50px; width: 50px;">
                         <div class="person-info">
                             <h4>Cutie Suteja</h4>
@@ -49,20 +53,52 @@
                     </div>
                 </div>
                 <hr>
+
                 <div class="opener-information">
                     <h6 class="information-welcoming">silahkan hubungi</h6>
-                    <ul class="information-list" ></ul>
-                    
+                    <ul class="information-list" >
+                    <li>
+                        <div class="list-number">1</div>
+                        <p class="list-paragraf">your first fiture</p>
+                    </li>
+                    <li>
+                        <div class="list-number">2</div>
+                        <p class="list-paragraf">your second fiture</p>
+                    </li>
+                    <li>
+                        <div class="list-number">3</div>
+                        <p class="list-paragraf">your third fiture</p>
+                    </li>
+                    </ul>
                 </div>
             </div>
-            <div class="contact">         
+
+            <div class="contact">  <!--opener kanan-->   
+                <div class="box">
+                    <div class="box-title">
+                        <p>Silahkan hubungi</p>
+                    </div>
+                    <form action="">
+                    <label action="">Your Name</label>
+                    <input type="text" name="">
+                    <label action="">Email Addres</label>
+                    <input type="text" name="">
+                    <label action="">What are you interested in ?</label>
+                    <select name="" id="">
+                        <option value="">Madura</option>
+                        <option value="">Jawa</option>
+                        <option value="">Bali</option>
+                    </select>
+                    <input type="submit" value="send">
+                    </form>
+                </div> 
+            </div>   
             </div>
         </div>
     </section>
     </main>
-
-    <footer>
-
+    
+    <footer><!------------------------------------------------------------------>
     </footer>
 </body>
 
