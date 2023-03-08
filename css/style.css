@@ -46,7 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* styling visual */
 
 header{
@@ -83,4 +85,21 @@ header{
     align-items: center;
     padding: 50px;
     row-gap: 40px;
+}
+.hm-title>h1{
+    font-size: 45px;
+    font-weight:500 ;
+}
+.hm-title>h6{
+    font-size: 20px;
+    font-weight:500 ;
+}
+.opener-contact{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.opener-img{
+    height: 100%;
+    width: 600px;
 }
